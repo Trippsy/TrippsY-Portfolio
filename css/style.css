@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .mystyle h1 {
+    background-image:url(../assest/image/photo-1738168601626-00a692f3638d.avif) ;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    box-shadow: 5px 5px 5px;
+    color: rgb(175, 174, 174);
+  }
+  
+  .image img {
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  img:hover > :not(:hover){
+    opacity: 0.3;
+  }
+  img:hover{
+    transform: scale(1.1);
+  }
+  .shadow{
+    box-shadow: 8px 8px 3px;
+    color: #3b3939;
+  }
+  /* .btn{
+    background-color: transparent;
+    color: #fff; transition: 0.5s ease;
+    position: relative; overflow: hidden;
+    z-index: -1;
+  } */
+   /* .btn {
+    background-color: transparent;
+    color: chocolate;
+    position: relative;
+    cursor: pointer;
+   }
+  .btn button::before{
+    content: ''; 
+    position: absolute;
+    left: 0; 
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: blue;
+    z-index: -1;
+    transform: translateX(0);
+    transform-origin: left;
+  }
+  .btn button:hover::before {
+
+  }
+  .btn button:focus::before {
+    transform: scaleX(1);
+  } */
+   /* .web-img {
+    background-image: url(../assest/image/bharath-kumar-7OUHWIZDb8U-unsplash.jpg);
+   } */
+    .header h1 {
+      color: white;
+      text-shadow: 
+      0 0 10px blue,
+      0 0 20px blue,
+      0 0 40px blue;
+    }
